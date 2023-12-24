@@ -1,0 +1,207 @@
+body{
+	background-color: #5547bf;
+	scroll-behavior: smooth;
+}
+.nav{
+	font-weight: 500;
+	background-color: #000000;
+}
+.nav .button{
+	border: 2px solid #ffffff;
+	border-radius: 22px;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 8px 15px;
+}
+.nav .button:hover{
+	background-color: #ffffff;
+	transition: .55s;
+	color: #000000;
+}
+.banner{
+	background-image: url('	https://images.pexels.com/photos/1702624/pexels-photo-1702624.jpeg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	height: 700px;
+  	width: 100%;
+  	min-width: 50px;
+}
+.banner .banner-content{
+	text-align: center;
+	font-size: 40px;
+	padding: 250px 0;
+	color: #ffffff;
+}
+.banner .banner-paragraph{
+	font-size: 20px;
+	text-align: center;
+}
+.banner .button{
+	border: 2px solid #ffffff;
+	border-radius: 22px;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 8px 15px;
+	background-color: transparent;
+}
+.banner .button:hover{
+	background-color: #ffffff;
+	transition: .55s;
+	color: #000000;
+}
+.banner .button_1{
+	border: 2px solid #ffffff;
+	border-radius: 22px;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 18px;
+	padding: 8px 18px;
+}
+.banner .button_1:hover{
+	background-color: #000000;
+	transition: .65s;
+	color: #ffffff;
+}
+.bottom-banner{
+	padding: 30px 100px;
+	background-color: #f1faff;
+	justify-content: center;
+	align-items: center;
+}
+.bottom-banner .banner-logo{
+	padding-right: 35px;
+	font-size: 40px;
+}
+.bottom-banner .bottom-paragraph{
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	margin-right: 100px; 
+}
+.about{
+	color: #000000;
+	background-color: #ffffff;
+}
+.about .images{
+	width: 100%;
+	max-width: 150px;
+	border-radius: 50%;
+	border: 2px dashed #1e90ff;
+	padding: 5px;
+}
+.mid-about .about-image{
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+.mid-about{
+	background-color: #f1faff;
+}
+.mid-about .point{
+	font-size: 18px;
+}
+.mid-about .button{
+	background-color: #e52f37;
+	border-radius: 20px;
+	padding: 12px 20px;
+	border: transparent;
+	color: #ffffff;
+	margin-top: 10px;
+}
+.about-end{
+	background-color: #ffffff;
+}
+.about-end .image{
+	height: 345px;
+	width: auto;
+}
+.about-end a{
+	text-decoration: none;
+	color: #000000;
+}
+.team{
+	background-color: #f1faff;
+	text-align: center;
+}
+.team .image{
+	width: 100%;
+	max-width: 150px;
+	border: 2px dashed #000000;
+	border-radius: 50%;
+	padding: 5px;
+}
+.team .about-card{
+	background-color: transparent;
+	border: transparent;
+
+}
+.testimonials{
+	background-color: #f1faff;
+}
+.testimonials .image{
+	width: 15%;
+	max-width: 100px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.work-input{
+	border-radius: 30px;
+}
+.work-button{
+	border-radius: 30px;
+}
+.features{
+	background-color: #ffffff;
+}
+.pricing{
+	background-color: #f1faff;
+}
+.pricing .button{
+	padding: 10px 30px;
+	border-radius: 40px;
+	text-decoration: none;
+	border: 1px solid #27b36a;
+	background-color: transparent;
+}
+.pricing a{
+	text-decoration: none;
+	color: #27b36a;
+}
+.pricing .button2{
+	padding: 10px 30px;
+	border-radius: 45px;
+	text-decoration: none;
+	border: transparent;
+	color: #27b36a;
+	background-color: #ffffff;
+}
+.pricing .bg{
+	background-color: #27b36a;
+}
+.faq{
+	background-color: #ffffff;
+	text-align: center;
+}
+.blog{
+	background-color: #f1faff;
+	text-align: center;
+}
+.blog a{
+	text-decoration: none;
+	color: green;
+}
+.form{
+	text-align: center;
+	color: #ffffff;
+}
+.form .form-button{
+	background-color: #ffffff;
+	color: red;
+}
+.form .input{
+	background-color: transparent;
+}
+.footer{
+	background-color: #ffffff;
+}
